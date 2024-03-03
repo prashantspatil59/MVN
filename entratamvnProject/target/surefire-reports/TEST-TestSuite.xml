@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="87.172" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\praka\eclipse-workspace\entratamvnProject\target\test-classes;C:\Users\praka\eclipse-workspace\entratamvnProject\target\classes;C:\Users\praka\.m2\repository\org\seleniumhq\selenium\selenium-java\4.18.1\selenium-java-4.18.1.jar;C:\Users\praka\.m2\repository\org\seleniumhq\selenium\selenium-api\4.18.1\selenium-api-4.18.1.jar;C:\Users\praka\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.18.1\selenium-chrome-driver-4.18.1.jar;C:\Users\praka\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\praka\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.18.1\selenium-chromium-driver-4.18.1.jar;C:\Users\praka\.m2\repository\org\seleniumhq\selenium\selenium-json\4.18.1\selenium-json-4.18.1.jar;C:\Users\praka\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.18.1\selenium-manager-4.18.1.jar;C:\Users\praka\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.18.1\selenium-devtools-v120-4.18.1.jar;C:\Users\praka\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.18.1\selenium-devtools-v121-4.18.1.jar;C:\Users\praka\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.18.1\selenium-devtools-v122-4.18.1.jar;C:\Users\praka\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.18.1\selenium-devtools-v85-4.18.1.jar;C:\Users\praka\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.18.1\selenium-edge-driver-4.18.1.jar;C:\Users\praka\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.18.1\selenium-firefox-driver-4.18.1.jar;C:\Users\praka\.m2\repository\org\seleniumhq\selenium\selenium-http\4.18.1\selenium-http-4.18.1.jar;C:\Users\praka\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\praka\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.18.1\selenium-ie-driver-4.18.1.jar;C:\Users\praka\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.18.1\selenium-remote-driver-4.18.1.jar;C:\Users\praka\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\praka\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\praka\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\praka\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\praka\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\praka\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar;C:\Users\praka\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\praka\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\praka\.m2\repository\io\opentelemetry\opentelemetry-api\1.35.0\opentelemetry-api-1.35.0.jar;C:\Users\praka\.m2\repository\io\opentelemetry\opentelemetry-context\1.35.0\opentelemetry-context-1.35.0.jar;C:\Users\praka\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.35.0\opentelemetry-exporter-logging-1.35.0.jar;C:\Users\praka\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.35.0\opentelemetry-sdk-common-1.35.0.jar;C:\Users\praka\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.35.0\opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar;C:\Users\praka\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.35.0\opentelemetry-sdk-extension-autoconfigure-1.35.0.jar;C:\Users\praka\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.35.0-alpha\opentelemetry-api-events-1.35.0-alpha.jar;C:\Users\praka\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.35.0\opentelemetry-sdk-trace-1.35.0.jar;C:\Users\praka\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.35.0-alpha\opentelemetry-extension-incubator-1.35.0-alpha.jar;C:\Users\praka\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.35.0\opentelemetry-sdk-1.35.0.jar;C:\Users\praka\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.35.0\opentelemetry-sdk-metrics-1.35.0.jar;C:\Users\praka\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.35.0\opentelemetry-sdk-logs-1.35.0.jar;C:\Users\praka\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\praka\.m2\repository\org\seleniumhq\selenium\selenium-os\4.18.1\selenium-os-4.18.1.jar;C:\Users\praka\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\praka\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.18.1\selenium-safari-driver-4.18.1.jar;C:\Users\praka\.m2\repository\org\seleniumhq\selenium\selenium-support\4.18.1\selenium-support-4.18.1.jar;C:\Users\praka\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\praka\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\praka\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\praka\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\praka\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\praka\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\praka\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\praka\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\praka\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\praka\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\praka\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\praka\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\praka\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\praka\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\praka\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\praka\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\praka\.m2\repository\org\apache\logging\log4j\log4j-core\2.21.1\log4j-core-2.21.1.jar;C:\Users\praka\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\praka\AppData\Local\Temp\surefire16704455084584283358\surefirebooter-20240303234833985_3.jar C:\Users\praka\AppData\Local\Temp\surefire16704455084584283358 2024-03-03T23-48-33_667-jvmRun1 surefire-20240303234833985_1tmp surefire_0-20240303234833985_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\praka\eclipse-workspace\entratamvnProject\target\test-classes;C:\Users\praka\eclipse-workspace\entratamvnProject\target\classes;C:\Users\praka\.m2\repository\org\seleniumhq\selenium\selenium-java\4.18.1\selenium-java-4.18.1.jar;C:\Users\praka\.m2\repository\org\seleniumhq\selenium\selenium-api\4.18.1\selenium-api-4.18.1.jar;C:\Users\praka\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.18.1\selenium-chrome-driver-4.18.1.jar;C:\Users\praka\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\praka\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.18.1\selenium-chromium-driver-4.18.1.jar;C:\Users\praka\.m2\repository\org\seleniumhq\selenium\selenium-json\4.18.1\selenium-json-4.18.1.jar;C:\Users\praka\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.18.1\selenium-manager-4.18.1.jar;C:\Users\praka\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.18.1\selenium-devtools-v120-4.18.1.jar;C:\Users\praka\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.18.1\selenium-devtools-v121-4.18.1.jar;C:\Users\praka\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.18.1\selenium-devtools-v122-4.18.1.jar;C:\Users\praka\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.18.1\selenium-devtools-v85-4.18.1.jar;C:\Users\praka\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.18.1\selenium-edge-driver-4.18.1.jar;C:\Users\praka\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.18.1\selenium-firefox-driver-4.18.1.jar;C:\Users\praka\.m2\repository\org\seleniumhq\selenium\selenium-http\4.18.1\selenium-http-4.18.1.jar;C:\Users\praka\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\praka\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.18.1\selenium-ie-driver-4.18.1.jar;C:\Users\praka\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.18.1\selenium-remote-driver-4.18.1.jar;C:\Users\praka\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\praka\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\praka\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\praka\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\praka\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\praka\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar;C:\Users\praka\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\praka\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\praka\.m2\repository\io\opentelemetry\opentelemetry-api\1.35.0\opentelemetry-api-1.35.0.jar;C:\Users\praka\.m2\repository\io\opentelemetry\opentelemetry-context\1.35.0\opentelemetry-context-1.35.0.jar;C:\Users\praka\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.35.0\opentelemetry-exporter-logging-1.35.0.jar;C:\Users\praka\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.35.0\opentelemetry-sdk-common-1.35.0.jar;C:\Users\praka\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.35.0\opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar;C:\Users\praka\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.35.0\opentelemetry-sdk-extension-autoconfigure-1.35.0.jar;C:\Users\praka\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.35.0-alpha\opentelemetry-api-events-1.35.0-alpha.jar;C:\Users\praka\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.35.0\opentelemetry-sdk-trace-1.35.0.jar;C:\Users\praka\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.35.0-alpha\opentelemetry-extension-incubator-1.35.0-alpha.jar;C:\Users\praka\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.35.0\opentelemetry-sdk-1.35.0.jar;C:\Users\praka\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.35.0\opentelemetry-sdk-metrics-1.35.0.jar;C:\Users\praka\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.35.0\opentelemetry-sdk-logs-1.35.0.jar;C:\Users\praka\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\praka\.m2\repository\org\seleniumhq\selenium\selenium-os\4.18.1\selenium-os-4.18.1.jar;C:\Users\praka\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\praka\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.18.1\selenium-safari-driver-4.18.1.jar;C:\Users\praka\.m2\repository\org\seleniumhq\selenium\selenium-support\4.18.1\selenium-support-4.18.1.jar;C:\Users\praka\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\praka\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\praka\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\praka\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\praka\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\praka\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\praka\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\praka\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\praka\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\praka\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\praka\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\praka\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\praka\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\praka\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\praka\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\praka\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\praka\.m2\repository\org\apache\logging\log4j\log4j-core\2.21.1\log4j-core-2.21.1.jar;C:\Users\praka\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\praka"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-04-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="C:\Users\praka\eclipse-workspace\entratamvnProject"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\praka\AppData\Local\Temp\surefire16704455084584283358\surefirebooter-20240303234833985_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.7+8-LTS-224"/>
+    <property name="user.name" value="praka"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\praka\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\praka\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.7"/>
+    <property name="user.dir" value="C:\Users\praka\eclipse-workspace\entratamvnProject"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\oraclexe\app\oracle\product\11.2.0\server\bin;;C:\Database\WINDOWS.X64_213000_db_home\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\praka\AppData\Local\Microsoft\WindowsApps;;C:\Users\praka\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\praka\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.7+8-LTS-224"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="verifyPageUrl" classname="Tests.HomePageTest" time="2.076">
+    <system-out><![CDATA[[INFO ] 2024-03-03 23:48:51.804 Utility.Log:13-Cookies Text is :We use cookies and services to understand how you use our site and to improve your browsing experience. By clicking "Accept Cookies" or closing this banner, you agree to the storing of cookies on your device. To find out more, please view our Privacy Policy.
+[INFO ] 2024-03-03 23:48:51.982 Utility.Log:13-Click on Accept Cookies
+[INFO ] 2024-03-03 23:48:51.998 Utility.Log:13-Url of Home page is :https://www.entrata.com/
+[INFO ] 2024-03-03 23:48:51.999 Utility.Log:13-Verify for Url
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+ERROR StatusConsoleListener Unable to locate appender "ROLLINGFILE" for logger config "entrata"
+]]></system-err>
+  </testcase>
+  <testcase name="verifyAllThePageLinks" classname="Tests.HomePageTest" time="34.986">
+    <system-out><![CDATA[[INFO ] 2024-03-03 23:48:52.017 Utility.Log:13-****************Verify for all links(active and broken) in the page *******************
+[INFO ] 2024-03-03 23:48:52.113 Utility.Log:13-Broken link found: / [Status Code: -1]
+[INFO ] 2024-03-03 23:48:52.129 Utility.Log:13-Broken link found: /products/property-management [Status Code: -1]
+[INFO ] 2024-03-03 23:48:52.146 Utility.Log:13-Broken link found: /products/residentpay [Status Code: -1]
+[INFO ] 2024-03-03 23:48:52.163 Utility.Log:13-Broken link found: /products/residentportal [Status Code: -1]
+[INFO ] 2024-03-03 23:48:52.178 Utility.Log:13-Broken link found: /products/BI [Status Code: -1]
+[INFO ] 2024-03-03 23:48:52.194 Utility.Log:13-Broken link found: /products/revenue-management [Status Code: -1]
+[INFO ] 2024-03-03 23:48:52.211 Utility.Log:13-Broken link found: /products/srm [Status Code: -1]
+[INFO ] 2024-03-03 23:48:52.227 Utility.Log:13-Broken link found: /products/access-connect [Status Code: -1]
+[INFO ] 2024-03-03 23:48:52.245 Utility.Log:13-Broken link found: /products/message-center [Status Code: -1]
+[INFO ] 2024-03-03 23:48:52.261 Utility.Log:13-Broken link found: /products/facility-management [Status Code: -1]
+[INFO ] 2024-03-03 23:48:52.277 Utility.Log:13-Broken link found: /products/reporting [Status Code: -1]
+[INFO ] 2024-03-03 23:48:52.293 Utility.Log:13-Broken link found: /products/sitetablet [Status Code: -1]
+[INFO ] 2024-03-03 23:48:52.309 Utility.Log:13-Broken link found: /products/business-consulting [Status Code: -1]
+[INFO ] 2024-03-03 23:48:52.325 Utility.Log:13-Broken link found: /training [Status Code: -1]
+[INFO ] 2024-03-03 23:48:52.341 Utility.Log:13-Broken link found: /products/marketing-and-leasing [Status Code: -1]
+[INFO ] 2024-03-03 23:48:52.357 Utility.Log:13-Broken link found: /products/prospectportal [Status Code: -1]
+[INFO ] 2024-03-03 23:48:52.374 Utility.Log:13-Broken link found: /products/rent-reporting [Status Code: -1]
+[INFO ] 2024-03-03 23:48:52.389 Utility.Log:13-Broken link found: /products/renters-insurance [Status Code: -1]
+[INFO ] 2024-03-03 23:48:52.405 Utility.Log:13-Broken link found: /products/leadmanager [Status Code: -1]
+[INFO ] 2024-03-03 23:48:52.421 Utility.Log:13-Broken link found: /products/digital-marketing [Status Code: -1]
+[INFO ] 2024-03-03 23:48:52.441 Utility.Log:13-Broken link found: /products/marketing-strategy [Status Code: -1]
+[INFO ] 2024-03-03 23:48:52.460 Utility.Log:13-Broken link found: /products/reputationadvisor [Status Code: -1]
+[INFO ] 2024-03-03 23:48:52.480 Utility.Log:13-Broken link found: /products/resident-services [Status Code: -1]
+[INFO ] 2024-03-03 23:48:52.499 Utility.Log:13-Broken link found: /products/deposit-alternative [Status Code: -1]
+[INFO ] 2024-03-03 23:48:52.518 Utility.Log:13-Broken link found: /products/residentverify [Status Code: -1]
+[INFO ] 2024-03-03 23:48:52.537 Utility.Log:13-Broken link found: /products/preciseID [Status Code: -1]
+[INFO ] 2024-03-03 23:48:52.555 Utility.Log:13-Broken link found: /products/verification-of-income [Status Code: -1]
+[INFO ] 2024-03-03 23:48:52.574 Utility.Log:13-Broken link found: /products/leasing-center [Status Code: -1]
+[INFO ] 2024-03-03 23:48:52.595 Utility.Log:13-Broken link found: /products/accounting [Status Code: -1]
+[INFO ] 2024-03-03 23:48:52.614 Utility.Log:13-Broken link found: /products/general-accounting [Status Code: -1]
+[INFO ] 2024-03-03 23:48:52.633 Utility.Log:13-Broken link found: /products/budgeting [Status Code: -1]
+[INFO ] 2024-03-03 23:48:52.654 Utility.Log:13-Broken link found: /products/job-costing [Status Code: -1]
+[INFO ] 2024-03-03 23:48:52.673 Utility.Log:13-Broken link found: /products/billpay [Status Code: -1]
+[INFO ] 2024-03-03 23:48:52.693 Utility.Log:13-Broken link found: /products/utilities [Status Code: -1]
+[INFO ] 2024-03-03 23:48:52.713 Utility.Log:13-Broken link found: /products/residentutility [Status Code: -1]
+[INFO ] 2024-03-03 23:48:52.730 Utility.Log:13-Broken link found: /products/utility-expense-management [Status Code: -1]
+[INFO ] 2024-03-03 23:48:52.750 Utility.Log:13-Broken link found: /products/utility-procurement [Status Code: -1]
+[INFO ] 2024-03-03 23:48:52.769 Utility.Log:13-Broken link found: /products/sales-tax-audits [Status Code: -1]
+[INFO ] 2024-03-03 23:48:52.787 Utility.Log:13-Broken link found: /products/sustainable-energy-management [Status Code: -1]
+[INFO ] 2024-03-03 23:48:52.807 Utility.Log:13-Broken link found: /operating-system [Status Code: -1]
+[INFO ] 2024-03-03 23:48:52.842 Utility.Log:13-Broken link found: /solutions-overview [Status Code: -1]
+[INFO ] 2024-03-03 23:48:52.863 Utility.Log:13-Broken link found: /multifamily [Status Code: -1]
+[INFO ] 2024-03-03 23:48:52.882 Utility.Log:13-Broken link found: /student [Status Code: -1]
+[INFO ] 2024-03-03 23:48:52.901 Utility.Log:13-Broken link found: /affordable [Status Code: -1]
+[INFO ] 2024-03-03 23:48:52.921 Utility.Log:13-Broken link found: /military [Status Code: -1]
+[INFO ] 2024-03-03 23:48:52.939 Utility.Log:13-Broken link found: /commercial [Status Code: -1]
+[INFO ] 2024-03-03 23:48:52.959 Utility.Log:13-Broken link found: /products/resident-services [Status Code: -1]
+[INFO ] 2024-03-03 23:48:52.979 Utility.Log:13-Broken link found: /resources [Status Code: -1]
+[INFO ] 2024-03-03 23:48:52.999 Utility.Log:13-Broken link found: /resources [Status Code: -1]
+[INFO ] 2024-03-03 23:48:53.017 Utility.Log:13-Broken link found: /resources [Status Code: -1]
+[INFO ] 2024-03-03 23:48:53.034 Utility.Log:13-Broken link found: /resources [Status Code: -1]
+[INFO ] 2024-03-03 23:48:53.055 Utility.Log:13-Broken link found: /blog/ [Status Code: -1]
+[INFO ] 2024-03-03 23:48:54.079 Utility.Log:13-*****Link is working fine: https://basecamp.entrata.com
+[INFO ] 2024-03-03 23:48:56.861 Utility.Log:13-*****Link is working fine: https://go.entrata.com/watch-demo.html
+[INFO ] 2024-03-03 23:48:56.876 Utility.Log:13-Broken link found: /sign-in [Status Code: -1]
+[INFO ] 2024-03-03 23:48:56.891 Utility.Log:13-Broken link found: /products/property-management [Status Code: -1]
+[INFO ] 2024-03-03 23:48:56.906 Utility.Log:13-Broken link found: /products/residentpay [Status Code: -1]
+[INFO ] 2024-03-03 23:48:56.922 Utility.Log:13-Broken link found: /products/residentportal [Status Code: -1]
+[INFO ] 2024-03-03 23:48:56.939 Utility.Log:13-Broken link found: /products/BI [Status Code: -1]
+[INFO ] 2024-03-03 23:48:56.956 Utility.Log:13-Broken link found: /products/revenue-management [Status Code: -1]
+[INFO ] 2024-03-03 23:48:56.971 Utility.Log:13-Broken link found: /products/srm [Status Code: -1]
+[INFO ] 2024-03-03 23:48:56.986 Utility.Log:13-Broken link found: /products/access-connect [Status Code: -1]
+[INFO ] 2024-03-03 23:48:57.001 Utility.Log:13-Broken link found: /products/message-center [Status Code: -1]
+[INFO ] 2024-03-03 23:48:57.015 Utility.Log:13-Broken link found: /products/facility-management [Status Code: -1]
+[INFO ] 2024-03-03 23:48:57.031 Utility.Log:13-Broken link found: /products/reporting [Status Code: -1]
+[INFO ] 2024-03-03 23:48:57.048 Utility.Log:13-Broken link found: /products/sitetablet [Status Code: -1]
+[INFO ] 2024-03-03 23:48:57.065 Utility.Log:13-Broken link found: /products/business-consulting [Status Code: -1]
+[INFO ] 2024-03-03 23:48:57.080 Utility.Log:13-Broken link found: /training [Status Code: -1]
+[INFO ] 2024-03-03 23:48:57.096 Utility.Log:13-Broken link found: /products/marketing-and-leasing [Status Code: -1]
+[INFO ] 2024-03-03 23:48:57.111 Utility.Log:13-Broken link found: /products/prospectportal [Status Code: -1]
+[INFO ] 2024-03-03 23:48:57.126 Utility.Log:13-Broken link found: /products/rent-reporting [Status Code: -1]
+[INFO ] 2024-03-03 23:48:57.140 Utility.Log:13-Broken link found: /products/renters-insurance [Status Code: -1]
+[INFO ] 2024-03-03 23:48:57.158 Utility.Log:13-Broken link found: /products/leadmanager [Status Code: -1]
+[INFO ] 2024-03-03 23:48:57.174 Utility.Log:13-Broken link found: /products/digital-marketing [Status Code: -1]
+[INFO ] 2024-03-03 23:48:57.189 Utility.Log:13-Broken link found: /products/marketing-strategy [Status Code: -1]
+[INFO ] 2024-03-03 23:48:57.203 Utility.Log:13-Broken link found: /products/reputationadvisor [Status Code: -1]
+[INFO ] 2024-03-03 23:48:57.219 Utility.Log:13-Broken link found: /products/resident-services [Status Code: -1]
+[INFO ] 2024-03-03 23:48:57.234 Utility.Log:13-Broken link found: /products/deposit-alternative [Status Code: -1]
+[INFO ] 2024-03-03 23:48:57.250 Utility.Log:13-Broken link found: /products/residentverify [Status Code: -1]
+[INFO ] 2024-03-03 23:48:57.266 Utility.Log:13-Broken link found: /products/preciseID [Status Code: -1]
+[INFO ] 2024-03-03 23:48:57.282 Utility.Log:13-Broken link found: /products/verification-of-income [Status Code: -1]
+[INFO ] 2024-03-03 23:48:57.300 Utility.Log:13-Broken link found: /products/leasing-center [Status Code: -1]
+[INFO ] 2024-03-03 23:48:57.317 Utility.Log:13-Broken link found: /products/accounting [Status Code: -1]
+[INFO ] 2024-03-03 23:48:57.332 Utility.Log:13-Broken link found: /products/general-accounting [Status Code: -1]
+[INFO ] 2024-03-03 23:48:57.347 Utility.Log:13-Broken link found: /products/budgeting [Status Code: -1]
+[INFO ] 2024-03-03 23:48:57.363 Utility.Log:13-Broken link found: /products/job-costing [Status Code: -1]
+[INFO ] 2024-03-03 23:48:57.379 Utility.Log:13-Broken link found: /products/billpay [Status Code: -1]
+[INFO ] 2024-03-03 23:48:57.395 Utility.Log:13-Broken link found: /products/utilities [Status Code: -1]
+[INFO ] 2024-03-03 23:48:57.412 Utility.Log:13-Broken link found: /products/residentutility [Status Code: -1]
+[INFO ] 2024-03-03 23:48:57.427 Utility.Log:13-Broken link found: /products/utility-expense-management [Status Code: -1]
+[INFO ] 2024-03-03 23:48:57.444 Utility.Log:13-Broken link found: /products/utility-procurement [Status Code: -1]
+[INFO ] 2024-03-03 23:48:57.459 Utility.Log:13-Broken link found: /products/sales-tax-audits [Status Code: -1]
+[INFO ] 2024-03-03 23:48:57.474 Utility.Log:13-Broken link found: /products/sustainable-energy-management [Status Code: -1]
+[INFO ] 2024-03-03 23:48:57.491 Utility.Log:13-Broken link found: /solutions-overview [Status Code: -1]
+[INFO ] 2024-03-03 23:48:57.507 Utility.Log:13-Broken link found: /multifamily [Status Code: -1]
+[INFO ] 2024-03-03 23:48:57.521 Utility.Log:13-Broken link found: /student [Status Code: -1]
+[INFO ] 2024-03-03 23:48:57.538 Utility.Log:13-Broken link found: /affordable [Status Code: -1]
+[INFO ] 2024-03-03 23:48:57.558 Utility.Log:13-Broken link found: /military [Status Code: -1]
+[INFO ] 2024-03-03 23:48:57.587 Utility.Log:13-Broken link found: /commercial [Status Code: -1]
+[INFO ] 2024-03-03 23:48:57.602 Utility.Log:13-Broken link found: /products/resident-services [Status Code: -1]
+[INFO ] 2024-03-03 23:48:57.618 Utility.Log:13-Broken link found: /resources [Status Code: -1]
+[INFO ] 2024-03-03 23:48:57.632 Utility.Log:13-Broken link found: /resources [Status Code: -1]
+[INFO ] 2024-03-03 23:48:57.652 Utility.Log:13-Broken link found: /resources [Status Code: -1]
+[INFO ] 2024-03-03 23:48:57.666 Utility.Log:13-Broken link found: /resources [Status Code: -1]
+[INFO ] 2024-03-03 23:48:57.680 Utility.Log:13-Broken link found: /blog/ [Status Code: -1]
+[INFO ] 2024-03-03 23:48:58.224 Utility.Log:13-*****Link is working fine: https://basecamp.entrata.com
+[INFO ] 2024-03-03 23:48:59.315 Utility.Log:13-*****Link is working fine: https://go.entrata.com/watch-demo.html
+[INFO ] 2024-03-03 23:48:59.338 Utility.Log:13-Broken link found: /sign-in [Status Code: -1]
+[INFO ] 2024-03-03 23:49:00.381 Utility.Log:13-*****Link is working fine: https://go.entrata.com/watch-demo.html
+[INFO ] 2024-03-03 23:49:01.455 Utility.Log:13-*****Link is working fine: https://go.entrata.com/watch-demo.html
+[INFO ] 2024-03-03 23:49:01.503 Utility.Log:13-Broken link found: /products/property-management [Status Code: -1]
+[INFO ] 2024-03-03 23:49:01.528 Utility.Log:13-Broken link found: /products/marketing-and-leasing [Status Code: -1]
+[INFO ] 2024-03-03 23:49:01.556 Utility.Log:13-Broken link found: /products/accounting [Status Code: -1]
+[INFO ] 2024-03-03 23:49:01.580 Utility.Log:13-Broken link found: /products/utilities [Status Code: -1]
+[INFO ] 2024-03-03 23:49:02.659 Utility.Log:13-*****Link is working fine: https://go.entrata.com/forrester-tei-study
+[INFO ] 2024-03-03 23:49:03.352 Utility.Log:13-*****Link is working fine: https://ai.entrata.com
+[INFO ] 2024-03-03 23:49:03.375 Utility.Log:13-Broken link found: /products/resident-services [Status Code: -1]
+[INFO ] 2024-03-03 23:49:04.989 Utility.Log:13-*****Link is working fine: https://go.entrata.com/watchdemo
+[INFO ] 2024-03-03 23:49:05.012 Utility.Log:13-Broken link found: /solutions-overview [Status Code: -1]
+[INFO ] 2024-03-03 23:49:05.036 Utility.Log:13-Broken link found: /operating-system [Status Code: -1]
+[INFO ] 2024-03-03 23:49:06.043 Utility.Log:13-*****Link is working fine: https://go.entrata.com/schedule-demo.html
+[INFO ] 2024-03-03 23:49:06.069 Utility.Log:13-Broken link found: /products/property-management [Status Code: -1]
+[INFO ] 2024-03-03 23:49:06.097 Utility.Log:13-Broken link found: /products/residentpay [Status Code: -1]
+[INFO ] 2024-03-03 23:49:06.123 Utility.Log:13-Broken link found: /products/residentportal [Status Code: -1]
+[INFO ] 2024-03-03 23:49:06.148 Utility.Log:13-Broken link found: /products/BI [Status Code: -1]
+[INFO ] 2024-03-03 23:49:06.176 Utility.Log:13-Broken link found: /products/revenue-management  [Status Code: -1]
+[INFO ] 2024-03-03 23:49:06.201 Utility.Log:13-Broken link found: /products/srm [Status Code: -1]
+[INFO ] 2024-03-03 23:49:06.225 Utility.Log:13-Broken link found: /products/access-connect [Status Code: -1]
+[INFO ] 2024-03-03 23:49:06.253 Utility.Log:13-Broken link found: /products/message-center [Status Code: -1]
+[INFO ] 2024-03-03 23:49:06.278 Utility.Log:13-Broken link found: /products/facility-management [Status Code: -1]
+[INFO ] 2024-03-03 23:49:06.310 Utility.Log:13-Broken link found: /products/reporting [Status Code: -1]
+[INFO ] 2024-03-03 23:49:06.335 Utility.Log:13-Broken link found: /products/sitetablet [Status Code: -1]
+[INFO ] 2024-03-03 23:49:06.361 Utility.Log:13-Broken link found: /products/marketing-and-leasing [Status Code: -1]
+[INFO ] 2024-03-03 23:49:06.386 Utility.Log:13-Broken link found: /products/prospectportal [Status Code: -1]
+[INFO ] 2024-03-03 23:49:06.412 Utility.Log:13-Broken link found: /products/leadmanager [Status Code: -1]
+[INFO ] 2024-03-03 23:49:06.437 Utility.Log:13-Broken link found: /products/digital-marketing [Status Code: -1]
+[INFO ] 2024-03-03 23:49:06.463 Utility.Log:13-Broken link found: /products/marketing-strategy [Status Code: -1]
+[INFO ] 2024-03-03 23:49:06.487 Utility.Log:13-Broken link found: /products/reputationadvisor [Status Code: -1]
+[INFO ] 2024-03-03 23:49:06.514 Utility.Log:13-Broken link found: /products/resident-services [Status Code: -1]
+[INFO ] 2024-03-03 23:49:06.537 Utility.Log:13-Broken link found: /products/renters-insurance [Status Code: -1]
+[INFO ] 2024-03-03 23:49:06.562 Utility.Log:13-Broken link found: /products/deposit-alternative [Status Code: -1]
+[INFO ] 2024-03-03 23:49:06.587 Utility.Log:13-Broken link found: /products/residentverify [Status Code: -1]
+[INFO ] 2024-03-03 23:49:06.612 Utility.Log:13-Broken link found: /products/preciseID [Status Code: -1]
+[INFO ] 2024-03-03 23:49:06.636 Utility.Log:13-Broken link found: /products/verification-of-income [Status Code: -1]
+[INFO ] 2024-03-03 23:49:06.662 Utility.Log:13-Broken link found: /products/leasing-center [Status Code: -1]
+[INFO ] 2024-03-03 23:49:06.689 Utility.Log:13-Broken link found: /products/accounting [Status Code: -1]
+[INFO ] 2024-03-03 23:49:06.714 Utility.Log:13-Broken link found: /products/general-accounting [Status Code: -1]
+[INFO ] 2024-03-03 23:49:06.739 Utility.Log:13-Broken link found: /products/budgeting [Status Code: -1]
+[INFO ] 2024-03-03 23:49:06.764 Utility.Log:13-Broken link found: /products/job-costing [Status Code: -1]
+[INFO ] 2024-03-03 23:49:06.788 Utility.Log:13-Broken link found: /products/billpay [Status Code: -1]
+[INFO ] 2024-03-03 23:49:06.816 Utility.Log:13-Broken link found: /products/utilities [Status Code: -1]
+[INFO ] 2024-03-03 23:49:06.843 Utility.Log:13-Broken link found: /products/residentutility [Status Code: -1]
+[INFO ] 2024-03-03 23:49:06.866 Utility.Log:13-Broken link found: /products/utility-expense-management [Status Code: -1]
+[INFO ] 2024-03-03 23:49:06.893 Utility.Log:13-Broken link found: /products/utility-procurement [Status Code: -1]
+[INFO ] 2024-03-03 23:49:06.915 Utility.Log:13-Broken link found: /products/sales-tax-audits [Status Code: -1]
+[INFO ] 2024-03-03 23:49:06.941 Utility.Log:13-Broken link found: /products/sustainable-energy-management [Status Code: -1]
+[INFO ] 2024-03-03 23:49:06.966 Utility.Log:13-Broken link found: /solutions-overview [Status Code: -1]
+[INFO ] 2024-03-03 23:49:06.991 Utility.Log:13-Broken link found: /multifamily [Status Code: -1]
+[INFO ] 2024-03-03 23:49:07.016 Utility.Log:13-Broken link found: /student [Status Code: -1]
+[INFO ] 2024-03-03 23:49:07.039 Utility.Log:13-Broken link found: /affordable [Status Code: -1]
+[INFO ] 2024-03-03 23:49:07.063 Utility.Log:13-Broken link found: /military [Status Code: -1]
+[INFO ] 2024-03-03 23:49:07.086 Utility.Log:13-Broken link found: /commercial [Status Code: -1]
+[INFO ] 2024-03-03 23:49:07.109 Utility.Log:13-Broken link found: /operating-system [Status Code: -1]
+[INFO ] 2024-03-03 23:49:07.666 Utility.Log:13-*****Link is working fine: https://ai.entrata.com/
+[INFO ] 2024-03-03 23:49:07.688 Utility.Log:13-Broken link found: /training [Status Code: -1]
+[INFO ] 2024-03-03 23:49:07.714 Utility.Log:13-Broken link found: /products/business-consulting [Status Code: -1]
+[INFO ] 2024-03-03 23:49:08.329 Utility.Log:13-*****Link is working fine: https://basecamp.entrata.com
+[INFO ] 2024-03-03 23:49:08.355 Utility.Log:13-Broken link found: /resources [Status Code: -1]
+[INFO ] 2024-03-03 23:49:08.379 Utility.Log:13-Broken link found: /blog [Status Code: -1]
+[INFO ] 2024-03-03 23:49:08.404 Utility.Log:13-Broken link found: /careers [Status Code: -1]
+[INFO ] 2024-03-03 23:49:08.430 Utility.Log:13-Broken link found: /integrations [Status Code: -1]
+[INFO ] 2024-03-03 23:49:08.452 Utility.Log:13-Broken link found: /legal [Status Code: -1]
+[INFO ] 2024-03-03 23:49:10.927 Utility.Log:13-*****Link is working fine: https://docs.entrata.com/api/v1/documentation
+[INFO ] 2024-03-03 23:49:13.071 Utility.Log:13-*****Link is working fine: https://docs.entrata.com/theme-gallery
+[INFO ] 2024-03-03 23:49:14.540 Utility.Log:13-*****Link is working fine: https://www.facebook.com/ENTRATAsoftware
+[INFO ] 2024-03-03 23:49:16.704 Utility.Log:13-*****Link is working fine: https://www.instagram.com/entratasoftware
+[INFO ] 2024-03-03 23:49:18.046 Utility.Log:13-Broken link found: https://twitter.com/entratasoftware [Status Code: 403]
+[INFO ] 2024-03-03 23:49:18.818 Utility.Log:13-Broken link found: http://www.linkedin.com/company/entratasoftware [Status Code: 999]
+[INFO ] 2024-03-03 23:49:20.139 Utility.Log:13-*****Link is working fine: https://www.youtube.com/entrata
+[INFO ] 2024-03-03 23:49:20.161 Utility.Log:13-Broken link found: /terms-of-use [Status Code: -1]
+[INFO ] 2024-03-03 23:49:20.183 Utility.Log:13-Broken link found: /privacy-policy [Status Code: -1]
+[INFO ] 2024-03-03 23:49:20.205 Utility.Log:13-Broken link found: /accessibility-statement [Status Code: -1]
+[INFO ] 2024-03-03 23:49:21.997 Utility.Log:13-Broken link found: https://residentportal.com [Status Code: 405]
+[INFO ] 2024-03-03 23:49:21.998 Utility.Log:13-no of Active link is ==17  No of broken link is ==166
+]]></system-out>
+  </testcase>
+  <testcase name="verifyAllTheLinkInProduct" classname="Tests.HomePageTest" time="8.407">
+    <system-out><![CDATA[[INFO ] 2024-03-03 23:49:29.388 Utility.Log:13-Mouse hovering towards product
+[INFO ] 2024-03-03 23:49:29.389 Utility.Log:13-****************Now Verify all the active and broken links in Product tab ***********
+[INFO ] 2024-03-03 23:49:29.488 Utility.Log:13-Broken link found: /products/property-management [Status Code: -1]
+[INFO ] 2024-03-03 23:49:29.514 Utility.Log:13-Broken link found: /products/residentpay [Status Code: -1]
+[INFO ] 2024-03-03 23:49:29.540 Utility.Log:13-Broken link found: /products/residentportal [Status Code: -1]
+[INFO ] 2024-03-03 23:49:29.570 Utility.Log:13-Broken link found: /products/BI [Status Code: -1]
+[INFO ] 2024-03-03 23:49:29.597 Utility.Log:13-Broken link found: /products/revenue-management [Status Code: -1]
+[INFO ] 2024-03-03 23:49:29.625 Utility.Log:13-Broken link found: /products/srm [Status Code: -1]
+[INFO ] 2024-03-03 23:49:29.658 Utility.Log:13-Broken link found: /products/access-connect [Status Code: -1]
+[INFO ] 2024-03-03 23:49:29.693 Utility.Log:13-Broken link found: /products/message-center [Status Code: -1]
+[INFO ] 2024-03-03 23:49:29.716 Utility.Log:13-Broken link found: /products/facility-management [Status Code: -1]
+[INFO ] 2024-03-03 23:49:29.740 Utility.Log:13-Broken link found: /products/reporting [Status Code: -1]
+[INFO ] 2024-03-03 23:49:29.765 Utility.Log:13-Broken link found: /products/sitetablet [Status Code: -1]
+[INFO ] 2024-03-03 23:49:29.790 Utility.Log:13-Broken link found: /products/business-consulting [Status Code: -1]
+[INFO ] 2024-03-03 23:49:29.817 Utility.Log:13-Broken link found: /training [Status Code: -1]
+[INFO ] 2024-03-03 23:49:29.840 Utility.Log:13-Broken link found: /products/marketing-and-leasing [Status Code: -1]
+[INFO ] 2024-03-03 23:49:29.865 Utility.Log:13-Broken link found: /products/prospectportal [Status Code: -1]
+[INFO ] 2024-03-03 23:49:29.887 Utility.Log:13-Broken link found: /products/rent-reporting [Status Code: -1]
+[INFO ] 2024-03-03 23:49:29.913 Utility.Log:13-Broken link found: /products/renters-insurance [Status Code: -1]
+[INFO ] 2024-03-03 23:49:29.937 Utility.Log:13-Broken link found: /products/leadmanager [Status Code: -1]
+[INFO ] 2024-03-03 23:49:29.960 Utility.Log:13-Broken link found: /products/digital-marketing [Status Code: -1]
+[INFO ] 2024-03-03 23:49:29.982 Utility.Log:13-Broken link found: /products/marketing-strategy [Status Code: -1]
+[INFO ] 2024-03-03 23:49:30.004 Utility.Log:13-Broken link found: /products/reputationadvisor [Status Code: -1]
+[INFO ] 2024-03-03 23:49:30.028 Utility.Log:13-Broken link found: /products/resident-services [Status Code: -1]
+[INFO ] 2024-03-03 23:49:30.052 Utility.Log:13-Broken link found: /products/deposit-alternative [Status Code: -1]
+[INFO ] 2024-03-03 23:49:30.076 Utility.Log:13-Broken link found: /products/residentverify [Status Code: -1]
+[INFO ] 2024-03-03 23:49:30.098 Utility.Log:13-Broken link found: /products/preciseID [Status Code: -1]
+[INFO ] 2024-03-03 23:49:30.123 Utility.Log:13-Broken link found: /products/verification-of-income [Status Code: -1]
+[INFO ] 2024-03-03 23:49:30.148 Utility.Log:13-Broken link found: /products/leasing-center [Status Code: -1]
+[INFO ] 2024-03-03 23:49:30.172 Utility.Log:13-Broken link found: /products/accounting [Status Code: -1]
+[INFO ] 2024-03-03 23:49:30.197 Utility.Log:13-Broken link found: /products/general-accounting [Status Code: -1]
+[INFO ] 2024-03-03 23:49:30.220 Utility.Log:13-Broken link found: /products/budgeting [Status Code: -1]
+[INFO ] 2024-03-03 23:49:30.245 Utility.Log:13-Broken link found: /products/job-costing [Status Code: -1]
+[INFO ] 2024-03-03 23:49:30.268 Utility.Log:13-Broken link found: /products/billpay [Status Code: -1]
+[INFO ] 2024-03-03 23:49:30.290 Utility.Log:13-Broken link found: /products/utilities [Status Code: -1]
+[INFO ] 2024-03-03 23:49:30.313 Utility.Log:13-Broken link found: /products/residentutility [Status Code: -1]
+[INFO ] 2024-03-03 23:49:30.337 Utility.Log:13-Broken link found: /products/utility-expense-management [Status Code: -1]
+[INFO ] 2024-03-03 23:49:30.361 Utility.Log:13-Broken link found: /products/utility-procurement [Status Code: -1]
+[INFO ] 2024-03-03 23:49:30.384 Utility.Log:13-Broken link found: /products/sales-tax-audits [Status Code: -1]
+[INFO ] 2024-03-03 23:49:30.406 Utility.Log:13-Broken link found: /products/sustainable-energy-management [Status Code: -1]
+[INFO ] 2024-03-03 23:49:30.407 Utility.Log:13-no of Active link is ==0  No of broken link is ==38
+]]></system-out>
+  </testcase>
+  <testcase name="E2ETestForFillForm" classname="Tests.DemoFormTest" time="20.011">
+    <system-out><![CDATA[[INFO ] 2024-03-03 23:49:38.524 Utility.Log:13-The current page url is https://go.entrata.com/watch-demo.html
+[INFO ] 2024-03-03 23:49:38.525 Utility.Log:13-Verify for DemoPage Url
+[INFO ] 2024-03-03 23:49:38.783 Utility.Log:13-Click On First Name textox and Enter Name is :Vaishali
+[INFO ] 2024-03-03 23:49:39.015 Utility.Log:13-Click on Last Name textbox And Name is :Shivankar
+[INFO ] 2024-03-03 23:49:39.179 Utility.Log:13-Click on  Email textbox And email is :abc@gmail.com
+[INFO ] 2024-03-03 23:49:39.327 Utility.Log:13-Click on Companyname textbox and name is : entrata
+[INFO ] 2024-03-03 23:49:39.630 Utility.Log:13-Click on phoneNumber textbox and Number is : 0888555888
+[INFO ] 2024-03-03 23:49:39.924 Utility.Log:13-Click on Unit count tab
+[INFO ] 2024-03-03 23:49:40.475 Utility.Log:13-Size of elemet is :6
+[INFO ] 2024-03-03 23:49:41.555 Utility.Log:13-
+[INFO ] 2024-03-03 23:49:42.099 Utility.Log:13-1 - 10
+[INFO ] 2024-03-03 23:49:42.627 Utility.Log:13-11 - 100
+[INFO ] 2024-03-03 23:49:43.155 Utility.Log:13-101 - 200
+[INFO ] 2024-03-03 23:49:43.696 Utility.Log:13-201 - 2000
+[INFO ] 2024-03-03 23:49:44.237 Utility.Log:13-2001+
+[INFO ] 2024-03-03 23:49:44.780 Utility.Log:13-Size of elemet is :6
+[INFO ] 2024-03-03 23:49:47.583 Utility.Log:13-Selected element is :101 - 200
+[INFO ] 2024-03-03 23:49:48.049 Utility.Log:13-Click on Job Titel textbox and Titel is : Software Quality Analyst
+[INFO ] 2024-03-03 23:49:49.461 Utility.Log:13-Click on I am Tab
+[INFO ] 2024-03-03 23:49:50.017 Utility.Log:13-Size of elemet is :3
+[INFO ] 2024-03-03 23:49:51.100 Utility.Log:13-
+[INFO ] 2024-03-03 23:49:51.641 Utility.Log:13-an Owner/Operator or Property Manager
+[INFO ] 2024-03-03 23:49:52.166 Utility.Log:13-a Resident
+[INFO ] 2024-03-03 23:49:52.707 Utility.Log:13-Size of elemet is :3
+[INFO ] 2024-03-03 23:49:54.403 Utility.Log:13-Selected element is :an Owner/Operator or Property Manager
+]]></system-out>
+  </testcase>
+  <testcase name="VerifylinkEntrata" classname="Tests.DemoFormTest" time="5.474">
+    <system-out><![CDATA[[INFO ] 2024-03-03 23:50:00.666 Utility.Log:13-Click On entrata Link
+[INFO ] 2024-03-03 23:50:00.917 Utility.Log:13-Url of Home page is :https://www.entrata.com/
+[INFO ] 2024-03-03 23:50:00.918 Utility.Log:13-Verify for Url
+]]></system-out>
+  </testcase>
+</testsuite>

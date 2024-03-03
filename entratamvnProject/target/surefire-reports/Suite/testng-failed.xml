@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="Utility.ItestListner"/>
+  </listeners>
+  <test thread-count="5" name="Demo Form Page(failed)" verbose="0">
+    <classes>
+      <class name="Tests.DemoFormTest">
+        <methods>
+          <include name="launchbrowser"/>
+          <include name="VerifylinkEntrata"/>
+          <include name="tear"/>
+          <include name="driverinitilization"/>
+        </methods>
+      </class> <!-- Tests.DemoFormTest -->
+    </classes>
+  </test> <!-- Demo Form Page(failed) -->
+</suite> <!-- Failed suite [Suite] -->

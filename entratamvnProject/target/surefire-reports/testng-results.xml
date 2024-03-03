@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-03T23:48:49 IST" name="Suite" finished-at="2024-03-03T23:50:01 IST" duration-ms="71444">
+    <groups>
+    </groups>
+    <test started-at="2024-03-03T23:48:49 IST" name="Demo Form Page" finished-at="2024-03-03T23:50:01 IST" duration-ms="71444">
+      <class name="Tests.DemoFormTest">
+        <test-method is-config="true" signature="driverinitilization()[pri:0, instance:Tests.DemoFormTest@192d43ce]" started-at="2024-03-03T23:49:35 IST" name="driverinitilization" finished-at="2024-03-03T23:49:35 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverinitilization -->
+        <test-method signature="E2ETestForFillForm()[pri:1, instance:Tests.DemoFormTest@192d43ce]" started-at="2024-03-03T23:49:35 IST" name="E2ETestForFillForm" finished-at="2024-03-03T23:49:55 IST" duration-ms="20011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- E2ETestForFillForm -->
+        <test-method signature="VerifylinkEntrata()[pri:2, instance:Tests.DemoFormTest@192d43ce]" started-at="2024-03-03T23:49:55 IST" name="VerifylinkEntrata" finished-at="2024-03-03T23:50:00 IST" duration-ms="5474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifylinkEntrata -->
+      </class> <!-- Tests.DemoFormTest -->
+      <class name="Tests.HomePageTest">
+        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:Tests.HomePageTest@3835c46]" started-at="2024-03-03T23:48:35 IST" name="launchbrowser" finished-at="2024-03-03T23:48:49 IST" duration-ms="13915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method is-config="true" signature="driverinitilization()[pri:0, instance:Tests.HomePageTest@3835c46]" started-at="2024-03-03T23:48:49 IST" name="driverinitilization" finished-at="2024-03-03T23:48:49 IST" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverinitilization -->
+        <test-method signature="verifyPageUrl()[pri:1, instance:Tests.HomePageTest@3835c46]" started-at="2024-03-03T23:48:49 IST" name="verifyPageUrl" finished-at="2024-03-03T23:48:52 IST" duration-ms="2074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageUrl -->
+        <test-method signature="verifyAllThePageLinks()[pri:2, instance:Tests.HomePageTest@3835c46]" started-at="2024-03-03T23:48:52 IST" name="verifyAllThePageLinks" finished-at="2024-03-03T23:49:27 IST" duration-ms="34986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllThePageLinks -->
+        <test-method signature="verifyAllTheLinkInProduct()[pri:3, instance:Tests.HomePageTest@3835c46]" started-at="2024-03-03T23:49:27 IST" name="verifyAllTheLinkInProduct" finished-at="2024-03-03T23:49:35 IST" duration-ms="8407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllTheLinkInProduct -->
+        <test-method is-config="true" signature="tear()[pri:0, instance:Tests.HomePageTest@3835c46]" started-at="2024-03-03T23:50:00 IST" name="tear" finished-at="2024-03-03T23:50:01 IST" duration-ms="349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+      </class> <!-- Tests.HomePageTest -->
+    </test> <!-- Demo Form Page -->
+  </suite> <!-- Suite -->
+</testng-results>
